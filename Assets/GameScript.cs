@@ -45,6 +45,13 @@ public class GameScript : MonoBehaviour
         // if there are two tiles revealed, hide them all
         var revealed = tiles.Where(t => t.isReveal).ToList();
         if (revealed.Count >= 2) return;
+        
+        if (tile.isReveal)
+        {
+            tile.Hide();
+            return;
+        }
+
 
         tile.Reveal();
         revealed = tiles.Where(t => t.isReveal).ToList();

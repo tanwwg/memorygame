@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac3d7096d6254596b3d623ec034e792, type: 3}
+  m_Name: TileLibrary
+  m_EditorClassIdentifier: 
+  tiles:
+  - name: Lion
+    picture: {fileID: 2800000, guid: 75012d543992846bd9c9553a6ca66e08, type: 3}
+    audio: {fileID: 8300000, guid: 2b66f268000b14194b82acad6da0d505, type: 3}
+  - name: Monkey
+    picture: {fileID: 2800000, guid: 3588e72a3e685419b82875a3fb022327, type: 3}
+    audio: {fileID: 8300000, guid: 69e5a5dd236e04ca387f0b29cf26b73d, type: 3}
+  - name: Giraffe
+    picture: {fileID: 2800000, guid: f078d27a1534446109397e70d59cef9c, type: 3}
+    audio: {fileID: 8300000, guid: e406a2e3525bd435488e137d5ab28a78, type: 3}
+  - name: Elephant
+    picture: {fileID: 2800000, guid: c6121eb4b500e4b3395ecb056e4ee8fe, type: 3}
+    audio: {fileID: 8300000, guid: 300198a3ac0ac40f9af7b2ff051c0aab, type: 3}
+  - name: Rhino
+    picture: {fileID: 2800000, guid: 91144254d1b1645f0a87db5e50af80b5, type: 3}
+    audio: {fileID: 8300000, guid: 1dcfaacd6e8a9463d84b776d0915b411, type: 3}
+  - name: Hippo
+    picture: {fileID: 2800000, guid: d14846122342244e8916cdf2d932d78e, type: 3}
+    audio: {fileID: 8300000, guid: e65fbb6e887284c558c3f3e4dd037665, type: 3}
+  - name: Crocodile
+    picture: {fileID: 2800000, guid: 9b67c2dcf7b5f483083b7fb5ef0e6526, type: 3}
+    audio: {fileID: 8300000, guid: 3d7ae2fda7c7340cc88fdd0cf5d54c6c, type: 3}
+  - name: Gorilla
+    picture: {fileID: 2800000, guid: d696de24a168e451a83b2326338b142b, type: 3}
+    audio: {fileID: 8300000, guid: ec7cebbd564a447a4868ea7a95bc36b9, type: 3}

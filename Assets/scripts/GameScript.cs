@@ -19,6 +19,8 @@ public class GameScript : MonoBehaviour
 
     public LayoutTiles grid;
 
+    public string restartScene = "SampleScene";
+
     public void Start()
     {
         grid.Layout();
@@ -45,12 +47,12 @@ public class GameScript : MonoBehaviour
         // if there are two tiles revealed, hide them all
         var revealed = tiles.Where(t => t.isReveal).ToList();
         if (revealed.Count >= 2) return;
-        
-        if (tile.isReveal)
-        {
-            tile.Hide();
-            return;
-        }
+
+        if (tile.isReveal) return;
+        // {
+        //     tile.Hide();
+        //     return;
+        // }
 
 
         tile.Reveal();
@@ -89,7 +91,7 @@ public class GameScript : MonoBehaviour
 
     public void ReloadScene()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(restartScene);
     }
 
 }
